@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="Description" content="Anything you want">
+<meta name="Keywords" content="web design">
+<meta name="author" content="Mayfred Appiah">
+<title>May's web designs</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Food</span> is life</h1>
+			</div>
+			<nav>
+			<ul>
+				<li class="current"><a href="index.html">Home</a></li>
+			    <li><a href="index.html">About</a></li>
+				<li><a href="index.html">Recipes</a></li>
+			</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<section id="showcase">
+	<div class="container">
+		<h1>Making your daily decisions easier</h1>
+		</div>
+	</section>
+	
+	<section id="dilemma">
+		<div class="container">
+			<h1>Can't decide the meal of the day?</h1>
+				<button type="button" class="button_1" id="myMeal" onclick = "randomFood()"> Click here</button>
+		</div>
+	</section>
+	
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<p>Most of the time, deciding what to eat is more time consuming that cooking. This is to make the decision easier.</p>
+				
+			</div>
+		</div>
+	</section>
+		<footer>
+		<p>May web design, &copy; 2020</p>
+		</footer>
+		<script>
+		var food = ["Waakye", "Banku and okro", "Jollof", "Rice and Stew", "Cream Tuna pasta", "Chicken fried Rice"];
+
+		function randomFood() {
+   		alert (food[Math.floor(Math.random() * food.length)])
+
+ 		}
+ 	</script>
+</body>
+</html>

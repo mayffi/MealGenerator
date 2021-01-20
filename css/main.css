@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/*Global*/
+.container{
+	width:50%; /*responsive*/
+	margin: auto; /*move everything to the middle*/
+	overflow: hidden;/*if something goes out of the div, it stays hidden*/
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.button_1{
+	height: 38px;
+	background: #daa520;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	color: #ffffff;
+}
+
+/*Header*/
+header {
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #daa520 3px solid;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none; /*remove text underline */
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #daa520;
+	font-weight: bold;
+}
+
+header a:hover {
+	color:#cccccc;
+	font-weight: bold;
+}
+
+/*showcase*/
+#showcase {
+	min-height: 400px; /*min makes it responsive */
+	min-width: 1024px;
+	background:url(../img/showcase.jpeg) no-repeat 0 -400px; 
+	/*unsplash.com/photos/HPhbGuaoEwk*/
+	background-size: cover; /* Resize the background image to cover 
+	the entire container */
+	text-align: center;
+	color: #ffffff;
+	border-bottom: #daa520 3px solid;
+}
+
+#showcase h1 {
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+/*Newsletter*/
+#dilemma{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+#dilemma h1 {
+	float: left;
+}
+
+.button_1 {
+	float: right;
+	margin-top: 15px;
+}
+
+/*Boxes*/
+#boxes {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#boxes .box {
+	margin: 20px;
+	padding: 10px;
+	text-align: left;
+}
+
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background:#daa520;
+	text-align: center;
+}
+
